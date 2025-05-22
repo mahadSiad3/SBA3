@@ -1,0 +1,41 @@
+.board {
+    border: 2px, solid, black;
+    display:grid;
+    position: relative;
+    width: 500px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2px;
+}
+
+#resetButton {
+    display: flex;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#resetButton:hover {
+  background-color: blue;
+  color: white;
+}
+.box:hover{
+    background-color: lightslategray;
+}
