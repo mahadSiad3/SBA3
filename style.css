@@ -1,5 +1,5 @@
 .board {
-    border: 2px, solid, black;
+    border: 5px, solid, black;
     display:grid;
     position: relative;
     width: 500px;
@@ -11,13 +11,14 @@
 
 .box {
 
-    border: 2px solid black;
+    border: 5px solid black;
     height: 200px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 2px;
+    background-color:bisque;
 }
 
 #resetButton {

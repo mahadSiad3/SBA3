@@ -5,11 +5,12 @@ const header = document.createElement('h1');
 header.textContent = "TIK TAC TOE";
 header.style.textAlign = "center"
 document.body.prepend(header);
-let divArray = [];
+document.body.style.backgroundImage = "url('tictactoeimage.jpg')"
+// let divArray = [];
 
-collectedDivs.forEach((div) => {
-    divArray.push(div)
-})
+// collectedDivs.forEach((div) => {
+//     divArray.push(div)
+// })
 // let img1=document.createElement('img')
 // img1.src= "Naruto%27s_Sage_Mode.webp";
 //console.log(collectedDivs)
@@ -35,7 +36,7 @@ let switches = true
             }
             else if (event.target.textContent == "" && switches == true) {
                 event.target.textContent = "X"
-                //event.target.style.backgroundImage = img1
+                board.target.style.backgroundImage = "url('tictactoeimage.jpg')"
 
                 event.target.style.backgroundColor = "lightcoral"
                 board[index] = "X";
